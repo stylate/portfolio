@@ -9,13 +9,17 @@ nav {
 .dropdown {
     float: left;
     overflow: hidden;
+    a {
+       text-decoration: none; 
+    }
 }
 
 .dropdown-content {
     overflow: hidden;
+    display: none;
     ul {
-        margin: 0;
-        padding: 0;
+        list-style: none;
+        padding-left: 0;
     }
 
     ul::after {
