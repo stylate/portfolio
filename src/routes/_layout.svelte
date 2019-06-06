@@ -6,7 +6,8 @@
 
 <style>
 	main {
-		position: relative;
+        position: relative;
+        overflow: hidden;
 		max-width: 56em;
 		background-color: white;
 		padding: 2em;
@@ -15,8 +16,8 @@
     }
 </style>
 
+<Nav {segment}/>
 <main>
     <h2>alan nguyen</h2>
-    <Nav {segment}/>
 	<slot></slot>
 </main>
