@@ -27,8 +27,8 @@
 </style>
 
 <nav>
-    <div class='dropdown'>
-        <a href="" on:click={drop}>Menu</a>
+    <a href="" on:click={drop}>Menu</a>
+</nav>
         <div class='dropdown-content' id="toggleDrop">
             <ul>
 		        <li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
@@ -36,5 +36,3 @@
                 <li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
             </ul>
         </div>
-    </div>
-</nav>
