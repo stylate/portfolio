@@ -11,12 +11,12 @@
 		background-color: white;
 		padding: 2em;
 		margin: 0 auto;
-		box-sizing: border-box;
-	}
+        box-sizing: border-box;
+    }
 </style>
 
-<Nav {segment}/>
-
 <main>
+    <h2>alan nguyen</h2>
+    <Nav {segment}/>
 	<slot></slot>
 </main>

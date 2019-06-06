@@ -4,6 +4,8 @@ import commonjs from 'rollup-plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
+import autoPreprocess from 'svelte-preprocess';
+import { scss } from 'svelte-preprocess';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 
@@ -24,7 +26,8 @@ export default {
 			}),
 			svelte({
 				dev,
-				hydratable: true,
+				preprocess: autoPreprocess(),
+                hydratable: true,
 				emitCss: true
 			}),
 			resolve(),

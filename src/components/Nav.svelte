@@ -1,11 +1,16 @@
 <script>
+    import { mobileCheck } from './core/Mobile.js'
     export let segment;
-    
     let segments = [
         { id: 1, text: `home` },
         { id: 2, text: `about` },
         { id: 3, text: `fleeting dream` }
     ];
+
+    function reveal() {
+        var toggle = document.getElementById("toggleDrop");
+        toggle.style.display = 'block';
+    }
 
     function drop() {
         var toggle = document.getElementById("toggleDrop");
@@ -23,7 +28,7 @@
 
 <nav>
     <div class='dropdown'>
-        <button on:click={drop}>Menu</button>
+        <a href="" on:click={drop}>Menu</a>
         <div class='dropdown-content' id="toggleDrop">
             <ul>
 		        <li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
