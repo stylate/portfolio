@@ -50,13 +50,13 @@ code {
 
     h2, p {
         position: absolute;
-        margin-left: 130px;
+        margin-left: 135px;
         text-align: center;
-        margin-top: 8.5%;
+        margin-top: 8.8%;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     p {
