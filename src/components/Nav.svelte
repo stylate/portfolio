@@ -7,11 +7,6 @@
         { id: 3, text: `fleeting dream` }
     ];
 
-    function reveal() {
-        var toggle = document.getElementById("toggleDrop");
-        toggle.style.display = 'block';
-    }
-
     function drop() {
         var toggle = document.getElementById("toggleDrop");
         var setting = toggle.style.display;
@@ -27,7 +22,7 @@
 </style>
 
 <nav>
-    <a href="" on:click={drop}>Menu</a>
+    <button on:click={drop}>Menu</button>
 </nav>
         <div class='dropdown-content' id="toggleDrop">
             <ul>

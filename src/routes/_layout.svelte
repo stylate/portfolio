@@ -16,15 +16,10 @@
         float: left;
     }
 
-    @media screen and (max-width: 599px) {
-        main {
-            margin-top: 20%;
-        }
-    }
 </style>
 
 <Nav {segment}/>
 <main>
-    <h2>alan nguyen</h2>
+    <h1>alan nguyen</h1>
 	<slot></slot>
 </main>

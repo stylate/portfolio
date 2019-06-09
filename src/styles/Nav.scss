@@ -1,14 +1,21 @@
+/* default */
+nav {
+    overflow: hidden;
+    button {
+        font-family: "Inter", "Open Sans", sans-serif;
+        border: none;
+        font-size: 1em;
+        text-decoration: none;
+    }
+}
+
 /* mobile */
 @media screen and (max-width: 599px) {
     nav { 
         width: 60%;
         float: right;
-        overflow: hidden;
         margin-top: 8.3%;
-        margin-right: -43%;
-        a {
-            text-decoration: none; 
-        }
+        margin-right: -41%;
     }
 
     .dropdown-content {
