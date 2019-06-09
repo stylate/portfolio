@@ -7,12 +7,15 @@
 <style>
 	main {
         position: fixed;
-        overflow: hidden;
 		background-color: white;
 		padding: 2em;
 		margin: 0 auto;
         box-sizing: border-box;
         float: left;
+    }
+
+    .content ::global() {
+        opacity: 1.0;
     }
 </style>
 

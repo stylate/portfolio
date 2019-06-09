@@ -44,7 +44,7 @@ code {
 
     h2, p {
         float: left;
-        overflow: hidden;
+        overflow: visible;
     }
 
     h2 {

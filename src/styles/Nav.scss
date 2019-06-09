@@ -1,6 +1,5 @@
 /* default */
 nav {
-    overflow: hidden;
     button {
         font-family: "Inter", "Open Sans", sans-serif;
         font-size: 1em;
@@ -18,8 +17,8 @@ nav {
     }
 
     .dropdown-content {
-        overflow: hidden;
         float: left;
+        overflow: visible;
         margin-top: 20%;
         margin-left: 5.75%;
         display: none;

@@ -7,16 +7,22 @@
         { id: 3, text: `fleeting dream` }
     ];
 
+    function reset() {
+        let toggle = document.getElementById("toggleDrop");
+        let content = document.getElementById("toggleOpacity");
+        toggle.style.display = 'none';
+        content.style.opacity = 1.0;
+    }
+
     function drop() {
-        var toggle = document.getElementById("toggleDrop");
-        var content = document.getElementById("toggleOpacity");
+        let toggle = document.getElementById("toggleDrop");
+        let content = document.getElementById("toggleOpacity");
         var setting = toggle.style.display;
         if (setting == 'block') {
-            toggle.style.display = 'none';
-            content.style.opacity = 1.0;
+            reset();
         } else {
             toggle.style.display = 'block';
-            content.style.opacity = 0.3;
+            content.style.opacity = 0.1;
         }
     }
 </script>
@@ -28,7 +34,7 @@
     <button on:click={drop}>Menu</button>
 </nav>
         <div class='dropdown-content' id="toggleDrop">
-            <ul>
+            <ul on:click={reset}>
 		        <li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
 		        <li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
                 <li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
