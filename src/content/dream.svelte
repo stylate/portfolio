@@ -2,8 +2,8 @@
     let dream = {
         title: "fleeting dream",
         files: [
-            './1.jpg',
-            './2.jpg'
+            './photos/dream/1.jpg',
+            './photos/dream/2.jpg'
         ]
     };
     export dream;
