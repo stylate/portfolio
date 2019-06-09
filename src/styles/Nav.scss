@@ -12,19 +12,18 @@ nav {
     nav { 
         width: 60%;
         float: right;
-        margin-top: 8.3%;
-        margin-right: -41%;
+        margin-right: -35%;
     }
 
     .dropdown-content {
         float: left;
-        overflow: visible;
-        margin-top: 20%;
-        margin-left: 5.75%;
+        margin-top: 8%;
+        margin-left: -1.5%;
         display: none;
         ul {
             list-style: none;
             padding-left: 0;
+            font-size: 0.8em;
         }
 
         ul::after {

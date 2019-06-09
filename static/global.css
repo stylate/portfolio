@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 1.3em;
+    position: absolute;
 }
 
 a {
@@ -43,16 +44,17 @@ code {
 	}
 
     h2, p {
-        float: left;
-        overflow: visible;
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 12.1%;
     }
 
     h2 {
-        margin-top: 40%;
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 0.5em;
+        margin-top: 30%;
     }
 }
