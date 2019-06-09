@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 a {
@@ -44,9 +44,15 @@ code {
 
     h2, p {
         float: left;
+        overflow: hidden;
     }
 
     h2 {
-        margin-top: 22%;
+        margin-top: 40%;
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.8em;
     }
 }

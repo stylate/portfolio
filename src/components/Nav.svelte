@@ -9,11 +9,14 @@
 
     function drop() {
         var toggle = document.getElementById("toggleDrop");
+        var content = document.getElementById("toggleOpacity");
         var setting = toggle.style.display;
         if (setting == 'block') {
             toggle.style.display = 'none';
+            content.style.opacity = 1.0;
         } else {
             toggle.style.display = 'block';
+            content.style.opacity = 0.3;
         }
     }
 </script>
