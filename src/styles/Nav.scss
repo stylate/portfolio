@@ -1,33 +1,42 @@
 /* default */
 nav {
     position: fixed;
+    background-color: white;
     button {
+        overflow: hidden;
         font-family: "Inter", "Open Sans", sans-serif;
         font-size: 0.9em;
         text-decoration: none;
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 /* mobile */
 @media screen and (max-width: 599px) {
     nav { 
-        width: 60%;
-        float: right;
-        top: 0.65em;
-        right: -10em;
+        width: 100%;
+        height: 5%;
+        top: 0;
+        padding-top: 20px;
+        overflow: hidden;
+        button {
+            width: 44%;
+            float: right;
+        }
     }
 
-    h1 { position: fixed; }
-
-    .sidebar {
-        width: 100%;
-        background-color: white;
+    h1 {
+        position: fixed; 
+        overflow: hidden;
     }
 
     .dropdown-content {
         float: left;
         margin-top: 5%;
-        margin-left: -4.7%;
+        margin-left: -1.5%;
         position: fixed;
         display: none;
         ul {

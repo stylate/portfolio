@@ -1,6 +1,5 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-
 	export let segment;
 </script>
 
@@ -12,10 +11,6 @@
 		margin: 0 auto;
         box-sizing: border-box;
         float: left;
-    }
-
-    h1 {
-        position: fixed;
     }
 
     .content ::global() {

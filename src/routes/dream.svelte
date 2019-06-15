@@ -27,5 +27,5 @@
     <title>fleeting dream</title>
 </svelte:head>
 
-<Gallery title="testing"
+<Gallery title="fleeting dream"
          data={pictures} />

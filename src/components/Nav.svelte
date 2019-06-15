@@ -25,9 +25,8 @@
 </style>
 
 <div class='sidebar'>
-    <h1>testing</h1>
-
     <nav>
+        <h1><a href="">alan nguyen</a></h1>    
         <button on:click={drop}>Menu</button>
     </nav>
 

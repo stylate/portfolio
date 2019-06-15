@@ -13,7 +13,6 @@
         max-height: 100%;
         margin-top: 30%;
         overflow: hidden;
-        align: middle;
     }
 </style>
 
