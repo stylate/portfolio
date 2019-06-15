@@ -1,5 +1,6 @@
 /* default */
 nav {
+    position: fixed;
     button {
         font-family: "Inter", "Open Sans", sans-serif;
         font-size: 0.9em;
@@ -12,14 +13,22 @@ nav {
     nav { 
         width: 60%;
         float: right;
-        margin-top: -7%;
-        margin-right: -47%;
+        top: 0.65em;
+        right: -10em;
+    }
+
+    h1 { position: fixed; }
+
+    .sidebar {
+        width: 100%;
+        background-color: white;
     }
 
     .dropdown-content {
         float: left;
         margin-top: 5%;
-        margin-left: -5.5%;
+        margin-left: -4.7%;
+        position: fixed;
         display: none;
         ul {
             list-style: none;

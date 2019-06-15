@@ -24,14 +24,18 @@
 <style src="../styles/Nav.scss">
 </style>
 
-<nav>
-    <button on:click={drop}>Menu</button>
-</nav>
+<div class='sidebar'>
+    <h1>testing</h1>
 
-<div class='dropdown-content' id="toggleDrop">
-    <ul on:click={reset}>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-        <li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
-    </ul>
+    <nav>
+        <button on:click={drop}>Menu</button>
+    </nav>
+
+    <div class='dropdown-content' id="toggleDrop">
+        <ul on:click={reset}>
+		    <li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
+		    <li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
+            <li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+        </ul>
+    </div>
 </div>

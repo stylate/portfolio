@@ -6,13 +6,16 @@
 
 <style>
 	main {
-        position: fixed;
         width: 100%;
 		background-color: white;
 		padding: 2em;
 		margin: 0 auto;
         box-sizing: border-box;
         float: left;
+    }
+
+    h1 {
+        position: fixed;
     }
 
     .content ::global() {
@@ -22,7 +25,6 @@
 
 <main>
     <Nav {segment}/>
-    <h1>alan nguyen</h1>
     <div class="content" id="toggleOpacity">
         <slot></slot>
     </div>
