@@ -1,9 +1,12 @@
 <script>
     export let title;
-    export let data = [];
+    export let data = {
+        id: "",
+        number: 0
+    };
 
-    function getImage(name) {
-        return "https://alans-photos.s3-us-west-1.amazonaws.com/" + name;
+    function getImage(folder, index) {
+        return "https://alans-photos.s3-us-west-1.amazonaws.com/" + folder + "/" + index.toString() + ".jpg";
     }
 </script>
 
@@ -17,6 +20,6 @@
 </style>
 
 <h2>{title}</h2>
-{#each data as link}
-    <img alt="" src={getImage(link)}/>
+{#each data.number as index}
+    <img alt="" src={getImage(data.id, index)}/>
 {/each}

@@ -58,6 +58,11 @@ a {
             line-height: 0.1;
 	    }
 
+        ul li ul li {
+            font-size: 1.2em;
+            margin-left: 10px;
+        }
+
         .selected {
 	        position: relative;
             display: inline-block;
