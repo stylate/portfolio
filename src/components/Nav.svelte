@@ -1,12 +1,6 @@
 <script>
     import { mobileCheck } from './core/Mobile.js'
     export let segment;
-    let segments = [
-        { id: 1, text: `home` },
-        { id: 2, text: `about` },
-        { id: 3, text: `fleeting dream` }
-    ];
-
     function reset() {
         let toggle = document.getElementById("toggleDrop");
         let content = document.getElementById("toggleOpacity");
