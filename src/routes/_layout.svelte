@@ -11,9 +11,11 @@
 		margin: 0 auto;
         box-sizing: border-box;
         float: left;
+        overflow: hidden;
     }
 
     .content ::global() {
+        z-index: 0;
         opacity: 1.0;
     }
 </style>
