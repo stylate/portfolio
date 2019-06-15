@@ -11,5 +11,4 @@
     <title>{name}</title>
 </svelte:head>
 
-<Gallery title={name}
-         data={pictures} />
+<Gallery data={pictures} />

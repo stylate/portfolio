@@ -1,5 +1,4 @@
 <script>
-    export let title;
     export let data = {
         id: "",
         number: 0
@@ -19,7 +18,6 @@
     }
 </style>
 
-<h2>{title}</h2>
 {#each data.number as index}
     <img alt="" src={getImage(data.id, index)}/>
 {/each}

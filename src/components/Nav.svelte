@@ -1,5 +1,6 @@
 <script>
     import { mobileCheck } from './core/Mobile.js'
+
     export let segment;
     function reset() {
         let toggle = document.getElementById("toggleDrop");
