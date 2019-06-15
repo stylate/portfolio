@@ -22,7 +22,7 @@
 
 <main>
     <Nav {segment}/>
-    <h1>testing</h1>
+    <h1>alan nguyen</h1>
     <div class="content" id="toggleOpacity">
         <slot></slot>
     </div>

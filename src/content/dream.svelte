@@ -6,5 +6,4 @@
             './photos/dream/2.jpg'
         ]
     };
-    export dream;
 </script>
