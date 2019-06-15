@@ -1,3 +1,6 @@
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
+<script>
+    import { onMount } from 'svelte';
+    onMount(async () => {
+        window.location.replace('fleeting-dream');
+    });
+</script>
