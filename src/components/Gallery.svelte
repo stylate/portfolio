@@ -10,7 +10,7 @@
 </script>
 
 <style src="../styles/Gallery.scss">
-    </style>
+</style>
 
 {#each data.number as index}
     <img alt="" src={getImage(data.id, index)}/>

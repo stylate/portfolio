@@ -1,12 +1,14 @@
 <script>
     import { mobileCheck } from './core/Mobile.js'
-
     export let segment;
+
     function reset() {
-        let toggle = document.getElementById("toggleDrop");
-        let content = document.getElementById("toggleOpacity");
-        toggle.style.display = 'none';
-        content.style.opacity = 1.0;
+        if (mobileCheck()) {
+            let toggle = document.getElementById("toggleDrop");
+            let content = document.getElementById("toggleOpacity");
+            toggle.style.display = 'none';
+            content.style.opacity = 1.0;
+        }
     }
 
     function drop() {
