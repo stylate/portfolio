@@ -9,14 +9,8 @@
     }
 </script>
 
-<style>
-    img {
-        max-width: 100%;
-        max-height: 100%;
-        margin-top: 15%;
-        overflow: hidden;
-    }
-</style>
+<style src="../styles/Gallery.scss">
+    </style>
 
 {#each data.number as index}
     <img alt="" src={getImage(data.id, index)}/>

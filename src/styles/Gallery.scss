@@ -1,0 +1,17 @@
+/* NON-LAPTOP/DESKTOP LAYOUT */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15%;
+    overflow: hidden;
+}
+
+/* desktop layout */
+@media screen and (min-width: 1200px) {
+    img {
+        max-width: 40%;
+        margin-top: 13%;
+        margin-left: 41%;
+        display: block;
+    }
+}

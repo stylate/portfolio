@@ -215,3 +215,70 @@ a {
         }
     }
 }
+
+/* laptop */
+@media screen and (min-width: 1200px) {
+    nav { 
+        width: 25%;
+        height: 20%;
+        top: 0;
+        padding-top: 15%;
+        margin-left: 5%;
+        overflow: hidden;
+        button {
+            display: none;
+        }
+        z-index: 1;
+    }
+
+    h1 {
+        position: fixed;
+        padding-top: 7%;
+        font-size: 2.0em;
+        overflow: hidden;
+    }
+
+    .dropdown-content {
+        float: left;
+        margin-top: 20%;
+        margin-left: 4.4%;
+        padding-top: 60px;
+        z-index: 1;
+        position: fixed;
+        display: block;
+        ul {
+            list-style: none;
+            padding-left: 0;
+            font-size: 0.8em;
+        }
+
+        ul::after {
+            content: '';
+	        display: block;
+	        clear: both;
+        }
+	 
+        li {
+            display: block;
+            font-size: 2em;
+            line-height: 0.1;
+	    }
+
+        ul li ul li {
+            font-size: 1.2em;
+            margin-left: 10px;
+        }
+
+        .selected {
+	        position: relative;
+            display: inline-block;
+            opacity: 0.5;
+        }
+
+        a {
+            text-decoration: none;
+	        padding: 1em 0.5em;
+	        display: block;
+        }
+    }
+}
