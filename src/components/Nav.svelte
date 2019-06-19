@@ -28,7 +28,7 @@
 <div class='sidebar'>
     <nav>
         <h1><a href="">alan nguyen</a></h1>    
-        <button on:click={drop}>Menu</button>
+        <button on:click={drop}>menu</button>
     </nav>
 
     <div class='dropdown-content' id="toggleDrop">

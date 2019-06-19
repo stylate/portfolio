@@ -13,7 +13,7 @@
     img {
         max-width: 100%;
         max-height: 100%;
-        margin-top: 30%;
+        margin-top: 15%;
         overflow: hidden;
     }
 </style>
