@@ -33,6 +33,14 @@ code {
 	border-radius: 2px;
 }
 
+@media screen and (min-width: 1200px) {
+    html, body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
 /* mobile */
 @media screen and (max-width: 599px) {
 	body {
@@ -72,5 +80,13 @@ code {
     p {
         font-size: 0.9em;
         display: block;
+    }
+}
+
+/* desktop, disable scrolling */
+@media screen and (min-width: 1200px) {
+    html, body {
+        height: 100%;
+        overflow: hidden;
     }
 }
