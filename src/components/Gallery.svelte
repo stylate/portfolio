@@ -6,7 +6,6 @@
         text: null
     };
 
-    let isMobile = mobileCheck();
     let idx, len;
     if (data.number) {
         idx = 0;
@@ -26,6 +25,8 @@
         if (idx < len) idx++;
         else idx = 0;
     }
+
+    let isMobile = mobileCheck();
 </script>
 
 <style src="../styles/Gallery.scss">
