@@ -7,16 +7,15 @@ img {
 }
 
 h2 {
-    display: none;
+    display: block;
 }
 
 /* laptop layout */
 @media screen and (min-width: 1200px) {
     h2 {
-        margin-top: -2%;
+        margin-top: 8%;
         margin-left: 43%;
         font-size: 0.8em;
-        display: block;
     }
 
     p {
@@ -29,7 +28,6 @@ h2 {
         max-width: 40%;
         margin-top: 10%;
         margin-left: 45%;
-        display: block;
     }
 }
 
@@ -39,7 +37,6 @@ h2 {
         margin-top: -1.5%;
         margin-left: 39.7%;
         font-size: 1.0em;
-        display: block;
     }
 
     p {

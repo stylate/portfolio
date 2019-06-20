@@ -6,10 +6,11 @@
         text: null
     };
 
+    let isMobile = mobileCheck();
     let idx, len;
     if (data.number) {
         idx = 0;
-        len = data.number.length;
+        len = data.number.length - 1;
     }
 
     function getImage(folder, index) {
@@ -30,13 +31,18 @@
 <style src="../styles/Gallery.scss">
 </style>
 
-{#if !data.text}
-    <h2>Previous / Next</h2>
+{#if isMobile}
+    {#each data.number as index}
+        <img alt="" src={getImage(data.id, index)}/>
+    {/each}
+{:else}
+    {#if !data.text}
+        <h2>Previous / Next</h2>
+    {/if}
+    <div class="clickGallery">
+        <img alt="" on:click={next} src={getImage(data.id, idx)}/>
+    </div>
 {/if}
-
-{#each data.number as index}
-    <img alt="" src={getImage(data.id, index)}/>
-{/each}
 
 {#if data.text}
     {#each data.text as blurb}
