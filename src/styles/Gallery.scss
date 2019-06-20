@@ -6,8 +6,19 @@ img {
     overflow: hidden;
 }
 
+h2 {
+    display: none;
+}
+
 /* laptop layout */
 @media screen and (min-width: 1200px) {
+    h2 {
+        margin-top: -2.5%;
+        margin-left: 42.8%;
+        font-size: 1.0em;
+        display: block;
+    }
+
     img {
         max-width: 40%;
         margin-top: 10%;
@@ -18,6 +29,12 @@ img {
 
 /* desktop layout */
 @media screen and (min-width: 1800px) {
+    h2 {
+        margin-top: -1.5%;
+        margin-left: 39.7%;
+        display: block;
+    }
+
     img {
         max-width: 40%;
         margin-top: 13%;

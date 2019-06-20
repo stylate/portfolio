@@ -1,4 +1,5 @@
 <script>
+    import { mobileCheck } from './core/Mobile.js'
     export let data = {
         id: "",
         number: 0
@@ -12,6 +13,7 @@
 <style src="../styles/Gallery.scss">
 </style>
 
+<h2>Previous / Next</h2>
 {#each data.number as index}
     <img alt="" src={getImage(data.id, index)}/>
 {/each}
