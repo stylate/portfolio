@@ -37,7 +37,7 @@
     {/each}
 {:else}
     {#if !data.text}
-        <h2>Previous / Next</h2>
+        <h2><a on:click={prev}>Previous</a> / <a on:click={next}>Next</a> ({idx + 1} of {len + 1})</h2>
     {/if}
     <div class="clickGallery">
         <img alt="" on:click={next} src={getImage(data.id, idx)}/>
