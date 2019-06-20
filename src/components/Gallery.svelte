@@ -40,13 +40,12 @@
     {#if !data.text}
         <h2><a on:click={prev}>Previous</a> / <a on:click={next}>Next</a> ({idx + 1} of {len + 1})</h2>
     {/if}
-    <div class="clickGallery">
-        {#if data.text}
-            <img alt="" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
-        {:else}
-            <img alt="" on:click={next} src={getImage(data.id, idx)}/>
-        {/if}
-    </div>
+    
+    {#if !isMobile && data.text}
+        <img alt="" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
+    {:else}
+        <img alt="" on:click={next} src={getImage(data.id, idx)}/>
+    {/if}
 {/if}
 
 {#if data.text}

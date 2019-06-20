@@ -1,4 +1,4 @@
 export function mobileCheck() {
     console.log("width: " + window.innerWidth);
-    return window.innerWidth <= 900;
+    return window.innerWidth <= 1100;
 };
