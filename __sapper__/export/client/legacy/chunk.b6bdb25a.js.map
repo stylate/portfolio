@@ -1,1 +1,0 @@
-{"version":3,"file":"chunk.b6bdb25a.js","sources":["../../../../src/components/core/Mobile.js"],"sourcesContent":["export function mobileCheck() {\n    console.log(\"width: \" + window.innerWidth);\n    return window.innerWidth <= 1100;\n};\n"],"names":["mobileCheck","console","log","window","innerWidth"],"mappings":"AAAO,SAASA,WACZC,QAAQC,IAAI,UAAYC,OAAOC,YACxBD,OAAOC,YAAc"}

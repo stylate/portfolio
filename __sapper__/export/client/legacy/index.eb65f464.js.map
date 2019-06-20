@@ -1,1 +1,0 @@
-{"version":3,"file":"index.eb65f464.js","sources":["../../../../src/routes/index.svelte"],"sourcesContent":["<script>\n    import { onMount } from 'svelte';\n    onMount(async () => {\n        window.location.replace('fleeting-dream');\n    });\n</script>\n"],"names":["onMount","window","location","replace"],"mappings":"wNAEIA,WAAQ,2EACJC,OAAOC,SAASC,QAAQ"}
