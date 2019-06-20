@@ -1,0 +1,2 @@
+import{_ as n,a,b as r,c as t,i as s,d as c,s as e,S as i,n as o,F as u}from"./chunk.c3b51fd1.js";import{_ as f,a as d}from"./chunk.86c78d36.js";function p(n){return{c:o,l:o,m:o,p:o,i:o,o:o,d:o}}function l(n){return u(f(d.mark(function n(){return d.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:window.location.replace("fleeting-dream");case 1:case"end":return n.stop()}},n)}))),{}}export default(function(o){function u(n){var i;return a(this,u),i=r(this,t(u).call(this)),s(c(i),n,l,p,e,[]),i}return n(u,i),u}());
+//# sourceMappingURL=index.eb65f464.js.map
