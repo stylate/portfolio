@@ -2,12 +2,28 @@
     import { mobileCheck } from './core/Mobile.js'
     export let data = {
         id: "",
-        number: 0,
+        number: null,
         text: null
     };
 
+    let idx, len;
+    if (data.number) {
+        idx = 0;
+        len = data.number.length;
+    }
+
     function getImage(folder, index) {
         return "https://alans-photos.s3-us-west-1.amazonaws.com/" + folder + "/" + index.toString() + ".jpg";
+    }
+
+    function prev() {
+        if (idx > 0) idx--;
+        else idx = len;
+    }
+
+    function next() {
+        if (idx < len) idx++;
+        else idx = 0;
     }
 </script>
 
