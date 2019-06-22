@@ -40,8 +40,10 @@
 		    <li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
             <li><a>photo</a>
                 <ul>
+                    <li><a rel=prefetch class='{segment === "in-bloom" ? "selected" : ""}' href='in-bloom'>in bloom</a></li>
                     <li><a rel=prefetch class='{segment === "fleeting-dream" ? "selected" : ""}' href='fleeting-dream'>fleeting dream</a></li>
                     <li><a rel=prefetch class='{segment === "anachronism" ? "selected" : ""}' href='anachronism'>anachronism</a></li>
+	
                 </ul>
             </li>
         </ul>

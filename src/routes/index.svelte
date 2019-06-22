@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
     onMount(async () => {
-        window.location.replace('fleeting-dream');
+        window.location.replace('in-bloom');
     });
 </script>
