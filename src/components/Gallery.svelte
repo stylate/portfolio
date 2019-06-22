@@ -27,6 +27,18 @@
     }
 
     let isMobile = mobileCheck();
+    function checkKey(e) {
+        switch (e.key) {
+            case "ArrowLeft":
+                prev(); 
+                break;
+            case "ArrowRight":
+                next();
+                break;
+            default: break;
+        }
+    }
+    document.onkeydown = checkKey;
 </script>
 
 <style src="../styles/Gallery.scss">
@@ -42,7 +54,7 @@
     {/if}
     
     {#if !isMobile && data.text}
-        <img alt="" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
+        <img alt="" on:click={next} onstyle="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
     {:else}
         <img alt="" on:click={next} src={getImage(data.id, idx)}/>
     {/if}
@@ -53,3 +65,4 @@
         <p>{blurb}</p>
     {/each}
 {/if}
+
