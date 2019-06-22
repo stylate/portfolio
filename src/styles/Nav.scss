@@ -42,12 +42,14 @@ a {
 
     .dropdown-content {
         float: left;
+        width: 40%;
         margin-top: 5%;
         margin-left: -1.5%;
         padding-top: 5px;
         z-index: 1;
         position: fixed;
         display: none;
+
         ul {
             list-style: none;
             padding-left: 0;
@@ -251,6 +253,9 @@ a {
         z-index: 1;
         position: fixed;
         display: block;
+        span {
+            margin-left: 2%;
+        }
         ul {
             list-style: none;
             padding-left: 0;

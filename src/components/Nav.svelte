@@ -1,5 +1,6 @@
 <script>
     import { mobileCheck } from './core/Mobile.js'
+    import Icons from './Icons.svelte'
     export let segment;
 
     function reset() {
@@ -44,5 +45,6 @@
                 </ul>
             </li>
         </ul>
+        <Icons/>
     </div>
 </div>
