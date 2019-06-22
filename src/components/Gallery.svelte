@@ -54,7 +54,7 @@
     {/if}
     
     {#if !isMobile && data.text}
-        <img alt="" on:click={next} onstyle="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
+        <img alt="" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
     {:else}
         <img alt="" on:click={next} src={getImage(data.id, idx)}/>
     {/if}
