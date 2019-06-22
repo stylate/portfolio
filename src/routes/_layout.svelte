@@ -1,5 +1,4 @@
 <script>
-    import { fade } from 'svelte/transition';
 	import Nav from '../components/Nav.svelte';
 	export let segment;
 </script>
@@ -21,7 +20,7 @@
     }
 </style>
 
-<main transition:fade>
+<main>
     <Nav {segment}/>
     <div class="content" id="toggleOpacity">
         <slot></slot>
