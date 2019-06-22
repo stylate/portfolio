@@ -46,7 +46,7 @@
 
 {#if isMobile}
     {#each data.number as index}
-        <img alt="" src={getImage(data.id, index)}/>
+        <img alt="" class="loading" src={getImage(data.id, index)}/>
     {/each}
 {:else}
     {#if !data.text}
@@ -54,9 +54,9 @@
     {/if}
     
     {#if !isMobile && data.text}
-        <img alt="" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
+        <img alt="" class="loading" on:click={next} style="max-width: 40%; max-height: 400px;" src={getImage(data.id, idx)}/>
     {:else}
-        <img alt="" on:click={next} src={getImage(data.id, idx)}/>
+        <img alt="" class="loading" on:click={next} src={getImage(data.id, idx)}/>
     {/if}
 {/if}
 
