@@ -4,21 +4,12 @@ img {
     max-width: 100%;
     max-height: 100%;
     margin-top: 15%;
-    cursor: pointer;
+    display: block;
     overflow: hidden;
 }
 
 .loading {
     background: transparent url('https://i.imgur.com/0kRjKZi.gif') center no-repeat;
-}
-
-a {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-h2 {
-    display: block;
 }
 
 /* tablet layout */
@@ -37,12 +28,6 @@ h2 {
 
 /* laptop layout */
 @media screen and (min-width: 1200px) {
-    h2 {
-        margin-top: 3%;
-        margin-left: 26.75%;
-        font-size: 0.8em;
-    }
-
     p {
         margin-left: 28%;
         font-size: 14px;
@@ -51,7 +36,6 @@ h2 {
 
     img {
         max-width: 70%;
-        max-height: 700px;
         margin-top: 5%; /* -5% */
         margin-left: 28%; /* -17% */
     }
@@ -59,12 +43,6 @@ h2 {
 
 /* desktop layout */
 @media screen and (min-width: 1800px) {
-    h2 {
-        margin-top: -1.5%;
-        margin-left: 28%;
-        font-size: 1.0em;
-    }
-
     p {
         margin-left: 27%;
         font-size: 20px;
@@ -73,7 +51,6 @@ h2 {
 
     img {
         max-width: 70%;
-        max-height: 900px;
         margin-top: 8%;
         margin-left: 27%;
         display: block;
