@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{status}</title>
+	<title>reverie</title>
 </svelte:head>
 
 {#if dev && error.stack}
