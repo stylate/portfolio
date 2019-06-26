@@ -15,7 +15,7 @@ img {
 /* tablet layout */
 @media screen and (min-width: 600px) {
     p {
-        font-size: 20px;
+        font-size: 21.5px;
     }
 }
 
@@ -29,7 +29,7 @@ img {
 /* laptop layout */
 @media screen and (min-width: 1200px) {
     p {
-        margin-left: 32.8%;
+        margin-left: 31.9%;
         font-size: 14px;
         width: 38em;
     }
@@ -38,7 +38,7 @@ img {
         max-width: 500px;
         max-height: 850px;
         margin: 0 auto;
-        padding: 40px;
+        padding: 30px;
         padding-left: 6%;
     }
 }
@@ -46,7 +46,7 @@ img {
 /* desktop layout */
 @media screen and (min-width: 1800px) {
     p {
-        margin-left: 32.6%;
+        margin-left: 31.6%;
         font-size: 20px;
         width: 36em;
     }
@@ -55,7 +55,7 @@ img {
         max-width: 750px;
         max-height: 1150px;
         margin: 0 auto;
-        padding: 40px;
+        padding: 30px;
         padding-left: 6%;
     }
 }
