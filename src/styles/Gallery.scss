@@ -35,9 +35,11 @@ img {
     }
 
     img {
-        max-width: 70%;
-        margin-top: 5%; /* -5% */
-        margin-left: 28%; /* -17% */
+        max-width: 500px;
+        max-height: 850px;
+        margin: 0 auto;
+        padding: 40px;
+        padding-left: 25%;
     }
 }
 
@@ -50,9 +52,10 @@ img {
     }
 
     img {
-        max-width: 70%;
-        margin-top: 8%;
-        margin-left: 27%;
-        display: block;
+        max-width: 750px;
+        max-height: 1150px;
+        margin: 0 auto;
+        padding: 40px;
+        padding-left: 25%;
     }
 }

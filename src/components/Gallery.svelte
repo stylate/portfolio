@@ -18,7 +18,7 @@
 
 {#if !isMobile && data.text}
     {#each data.number as index}
-        <img alt="" class="loading" style="max-width: 40%; max-height: 400px;" src={getImage(data.id, index)}/>
+        <img alt="" class="loading" style="margin-left: 26.6%; padding: 20px;" src={getImage(data.id, index)}/>
     {/each}
 {:else}
     {#each data.number as index}
