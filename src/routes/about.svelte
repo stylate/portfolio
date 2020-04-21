@@ -4,7 +4,7 @@
     let pictures = {
         id: name,
         number: [0],
-        text: ["hello! i am a fourth-year student at uc berkeley studying computer science. aside from taking photos, i'm also a big fan of fashion, architecture, film, and music production.", "for any inquiries - feel free to contact me at nguyenalan@berkeley.edu."]
+        text: ["hello! i am a fourth-year student at uc berkeley studying computer science. aside from taking photos, i'm also a big fan of fashion, architecture, film, and music production.", "for any inquiries - feel free to contact me at nguyenalan@berkeley.edu.", "site last updated: june 25, 2019"]
     };
 </script>
 
